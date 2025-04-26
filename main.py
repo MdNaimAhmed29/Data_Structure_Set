@@ -37,6 +37,9 @@ print(res4)
 res5 = country.issuperset(city)
 print(res5)
 
+country.remove("pakistan")
+print(country)
+
 country.add("America")
 print(country)
 
